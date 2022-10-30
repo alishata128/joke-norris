@@ -1,0 +1,104 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container{
+    max-width: 570px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    background-color:#222;
+}
+
+header > .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: tomato;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+#header-link{
+    text-decoration: none;
+    color: tomato;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: tomato;
+    height: 100vh;
+}
+
+.main-content > .container{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-content > .container > a{
+    text-decoration: none;
+    background-color: #222;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: 3rem;
+}
+
+.main-content > .container > a:hover, 
+.main-content > .container > a:focus{
+    background-color: #444;
+}
+
+.joke{
+    display:none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #333;
+    color: whitesmoke;
+    max-width: 300px;
+    max-height: 150px;
+    padding: 50px; 
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 1px #111;
+    transition: linear 0.5s;
+}
+
+.pos-f{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 400px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 350px;
+    max-height: 80px;
+    
+}
+
+.joked{
+    box-shadow: 0px 0px 20px 1px #111;
+}
